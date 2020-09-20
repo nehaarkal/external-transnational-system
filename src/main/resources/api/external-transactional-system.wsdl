@@ -49,7 +49,7 @@ soapAction="http://www.example.org/Bookings/getRoutes"/>
 	</wsdl:binding>
 	<wsdl:service name="Bookings">
 		<wsdl:port binding="tns:BookingsSOAP" name="BookingsSOAP">
-			<soap:address location="http://localhost:8081/Bookings/BookingsSOAP/"/>
+			<soap:address location="http://external-transnational-system.us-e1.cloudhub.io:8081/Bookings/BookingsSOAP/"/>
 		</wsdl:port>
 	</wsdl:service>
 </wsdl:definitions> 
