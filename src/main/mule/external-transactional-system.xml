@@ -53,4 +53,5 @@ output application/xml
         </ee:transform>
         <logger doc:id="28197ab7-dfa5-43e6-b169-4e670d6c9c35" doc:name="Logger" level="INFO" message="#[payload]"/>
     </flow>
+    
 </mule>
